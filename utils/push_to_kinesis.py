@@ -5,7 +5,7 @@ import boto3
 from generate_health_data import simulate_health_data
 
 kinesis = boto3.client('kinesis', region_name='ap-south-1')
-stream_name = "health-data-stream"
+stream_name = "health_data_stream"
 patient_ids = ['ch-1000', 'ch-1001', 'ch-1002']
 
 def push_vitals():
