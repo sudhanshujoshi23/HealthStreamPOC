@@ -31,7 +31,7 @@ jobs:
   
   tests:
     needs: build
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - name: Lint with flake8
         run: |
