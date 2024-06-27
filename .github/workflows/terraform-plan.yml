@@ -1,7 +1,10 @@
 name: "Terraform Plan"
 
 on:
+  push:
+    branches: [ "main", "master" ]
   pull_request:
+    branches: [ "main", "master" ]
 
 env:
   TF_CLOUD_ORGANIZATION: "Personal-SJ"
