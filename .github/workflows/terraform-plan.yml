@@ -18,7 +18,7 @@ env:
 
 jobs:
   terraform:
-    if: github.repository != 'sudhanshujoshi23/Python-AWS-POC'
+    # if: github.repository != 'sudhanshujoshi23/Python-AWS-POC'
     name: "Terraform Plan"
     runs-on: ubuntu-latest
     permissions:
