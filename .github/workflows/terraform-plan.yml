@@ -14,7 +14,7 @@ env:
   TF_CLOUD_ORGANIZATION: "Personal-SJ"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "Python-AWS-PoC"
-  CONFIG_DIRECTORY: "./"
+  CONFIG_DIRECTORY: "./infra"
 
 jobs:
   terraform:
